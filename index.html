@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo - Seus Podcasts Favoritos</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <a href="#" class="logo">ECHO</a>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-actions">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Podcast Search">
+            </div>
+            <div class="user-icons">
+                <a href="#" aria-label="Favoritos"><i class="fas fa-heart"></i></a>
+                <a href="#" aria-label="Perfil do usuário"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero-section">
+            <div class="hero-content-left">
+                <p class="hero-intro">The Echo podcast brings you captivating discussions and thought-provoking narratives that resonate with listeners.</p>
+                <div class="top-list-container">
+                    <p class="top-list-header">Podcasts top list <span class="year">2023</span></p>
+                    <h1 class="top-list-title">THE BEST</h1>
+                    <article class="podcast-card-small">
+                        <div class="card-play-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-info">
+                            <h4>Unveiling Perspectives: The Conversation Catalysts</h4>
+                        </div>
+                        <button class="like-button" aria-label="Like podcast"><i class="far fa-heart"></i></button>
+                    </article>
+                    <article class="podcast-card-small">
+                        <div class="card-play-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-info">
+                            <h4>Spectrum Stories: Unleashing Narratives</h4>
+                        </div>
+                        <button class="like-button" aria-label="Like podcast"><i class="far fa-heart"></i></button>
+                    </article>
+                </div>
+            </div>
+
+            <div class="hero-content-center">
+                <img src="https://i.ibb.co/bJCQp6T/silhouette.png" alt="Silhueta de um apresentador de podcast com um microfone" class="hero-image">
+            </div>
+
+            <div class="hero-content-right">
+                <div class="stats-box">
+                    <span class="stats-number">300k</span>
+                    <span class="stats-label">auditions</span>
+                </div>
+                <div class="mini-player">
+                    <span class="new-badge">NEW</span>
+                    <div class="player-controls">
+                       <button aria-label="Previous track"><i class="fas fa-step-backward"></i></button>
+                       <button aria-label="Play track"><i class="fas fa-play"></i></button>
+                       <button aria-label="Next track"><i class="fas fa-step-forward"></i></button>
+                    </div>
+                </div>
+                <h2 class="hero-title">UNPARALLELED</h2>
+                <p>Our podcast hosts weave captivating tales, immersing listeners in a world of passion and storytelling expertise with every episode.</p>
+                <a href="#" class="read-more-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section class="best-days-section">
+            <div class="section-header">
+                <h3>Best days</h3>
+                <span>July 10</span>
+            </div>
+            <div class="podcasts-grid">
+                <article class="podcast-card-large">
+                    <figure class="card-image-container">
+                        <img src="https://i.imgur.com/8Q1Z2Yj.jpg" alt="Podcast Art for Echoes of Insight">
+                        <button class="play-button-overlay" aria-label="Play Echoes of Insight"><i class="fas fa-play"></i></button>
+                    </figure>
+                    <div class="card-body">
+                        <h4>Echoes of Insight: Unveiling Stories</h4>
+                        <button class="like-button" aria-label="Like podcast"><i class="far fa-heart"></i></button>
+                    </div>
+                </article>
+                <article class="podcast-card-large">
+                    <figure class="card-image-container">
+                        <img src="https://i.imgur.com/s6dC4jJ.jpg" alt="Podcast Art for Whispered Narratives">
+                        <button class="play-button-overlay" aria-label="Play Whispered Narratives"><i class="fas fa-play"></i></button>
+                    </figure>
+                    <div class="card-body">
+                        <h4>Whispered Narratives: Unveiling Choice</h4>
+                        <button class="like-button" aria-label="Like podcast"><i class="far fa-heart"></i></button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="upload-cta-section">
+            <div class="upload-text">
+                <h2>Upload your podcasts to our platform <i class="fas fa-volume-up"></i></h2>
+            </div>
+            <div class="create-podcast-card">
+                 <p class="create-podcast-badge">Become the best in podcasts</p>
+                 <div class="create-podcast-content">
+                    <img src="https://i.imgur.com/rG7yBAt.png" alt="Pessoa gravando um podcast" class="create-podcast-image">
+                    <div class="create-podcast-info">
+                        <h3>ECHO</h3>
+                        <a href="#" class="cta-button">Create a podcast</a>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section class="featured-episodes-section">
+            <div class="section-header">
+                <h3>Episódios em Destaque</h3>
+                <a href="#" class="view-all-link">Ver todos</a>
+            </div>
+            <div class="episodes-list">
+                <article class="episode-item">
+                    <span class="episode-number">01</span>
+                    <div class="episode-info">
+                        <h4>A Arte da Narrativa Digital</h4>
+                        <p>Com a convidada especial Ana Silva</p>
+                    </div>
+                    <span class="episode-duration">45 min</span>
+                    <button class="play-button-small" aria-label="Play A Arte da Narrativa Digital"><i class="fas fa-play"></i></button>
+                </article>
+                <article class="episode-item">
+                    <span class="episode-number">02</span>
+                    <div class="episode-info">
+                        <h4>O Futuro da Inteligência Artificial</h4>
+                        <p>Debate com Dr. Carlos Mendes</p>
+                    </div>
+                    <span class="episode-duration">58 min</span>
+                    <button class="play-button-small" aria-label="Play O Futuro da Inteligência Artificial"><i class="fas fa-play"></i></button>
+                </article>
+                <article class="episode-item">
+                    <span class="episode-number">03</span>
+                    <div class="episode-info">
+                        <h4>Minimalismo: Menos é Mais?</h4>
+                        <p>Reflexões sobre o estilo de vida</p>
+                    </div>
+                    <span class="episode-duration">32 min</span>
+                    <button class="play-button-small" aria-label="Play Minimalismo: Menos é Mais?"><i class="fas fa-play"></i></button>
+                </article>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h4 class="logo">ECHO</h4>
+                <p>As melhores discussões e narrativas que ressoam com você. Siga-nos nas redes sociais.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#">Episódios mais populares</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Nossos Apresentadores</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Sobre</h4>
+                <ul>
+                    <li><a href="#">Sobre o Echo</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <h4>Newsletter</h4>
+                <p>Receba as novidades semanais no seu email.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu email">
+                    <button type="submit">Inscrever</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Echo Podcasts. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
